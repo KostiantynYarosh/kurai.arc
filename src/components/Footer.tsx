@@ -8,9 +8,9 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="flex gap-8">
+                <div className="flex flex-row gap-8 md:gap-12 items-center text-center">
                     {['INSTAGRAM', 'TELEGRAM', 'TIKTOK'].map((social) => (
-                        <span key={social} className="text-[10px] tracking-[0.15em] text-secondary-gray hover:text-accent-purple cursor-pointer transition-colors duration-300">
+                        <span key={social} className="text-[11px] tracking-[0.2em] md:tracking-[0.15em] text-secondary-gray hover:text-accent-purple cursor-pointer transition-colors duration-300">
                             {social}
                         </span>
                     ))}
