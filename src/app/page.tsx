@@ -18,7 +18,7 @@ export default function Home() {
       {/* Featured Drops */}
       <section className="py-24 px-4 bg-soft-black/30">
         <div className="max-w-[1200px] mx-auto">
-          <div className="flex justify-between items-end mb-12">
+          <div className="flex justify-between items-end mb-7">
             <h2 className="text-xs tracking-[0.2em] text-secondary-gray uppercase">
               Latest Drops
             </h2>

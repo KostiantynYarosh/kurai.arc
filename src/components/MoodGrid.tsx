@@ -2,7 +2,7 @@ export default function MoodGrid() {
     return (
         <section className="py-24 px-4 bg-deep-black">
             <div className="max-w-[1200px] mx-auto">
-                <h2 className="text-xs tracking-[0.2em] text-secondary-gray uppercase mb-12">
+                <h2 className="text-xs tracking-[0.2em] text-secondary-gray uppercase mb-7">
                     Moodboard
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-12 auto-rows-[100px] gap-4">
